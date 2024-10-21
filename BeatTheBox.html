@@ -1,0 +1,61 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Beat the Box</title>
+    <link rel="stylesheet" href="styles.css">
+</head>
+<body>
+    <h1>Beat the Box</h1>
+	<!-- Restart button -->
+	<button id="restartGame">Restart Game</button> 
+    <div id="gameArea">
+        <div id="grid">
+            <div class="card" id="card1" onclick="selectCard(0)">
+                <img id="card1Image" src="images/back_of_card.png" alt="Card 1">
+            </div>
+            <div class="card" id="card2" onclick="selectCard(1)">
+                <img id="card2Image" src="images/back_of_card.png" alt="Card 2">
+            </div>
+            <div class="card" id="card3" onclick="selectCard(2)">
+                <img id="card3Image" src="images/back_of_card.png" alt="Card 3">
+            </div>
+            <div class="card" id="card4" onclick="selectCard(3)">
+                <img id="card4Image" src="images/back_of_card.png" alt="Card 4">
+            </div>
+            <div class="card" id="card5" onclick="selectCard(4)">
+                <img id="card5Image" src="images/back_of_card.png" alt="Card 5">
+            </div>
+            <div class="card" id="card6" onclick="selectCard(5)">
+                <img id="card6Image" src="images/back_of_card.png" alt="Card 6">
+            </div>
+            <div class="card" id="card7" onclick="selectCard(6)">
+                <img id="card7Image" src="images/back_of_card.png" alt="Card 7">
+            </div>
+            <div class="card" id="card8" onclick="selectCard(7)">
+                <img id="card8Image" src="images/back_of_card.png" alt="Card 8">
+            </div>
+            <div class="card" id="card9" onclick="selectCard(8)">
+                <img id="card9Image" src="images/back_of_card.png" alt="Card 9">
+            </div>
+            <!-- Add the rest of the cards in the same way -->
+        </div>
+        <div id="deckArea">
+            <div class="deck" id="deck">			
+                <img id="deckImage" src="images/back_of_card.png" alt="Deck">
+			 </div>
+            <div class="drawnCard" id="drawnCard">
+                <img id="drawnCardImage" src="images/cards_placeholder.png" alt="Drawn Card">
+            </div>
+			 <div id="cardsLeftText">Cards left: 52</div>
+        </div>
+    </div>
+    <div>
+		<!-- Guess buttons -->
+		<button id="guessHigher">Higher</button>
+		<button id="guessLower">Lower</button>
+    </div>
+    <script src="script.js"></script>
+</body>
+</html>
