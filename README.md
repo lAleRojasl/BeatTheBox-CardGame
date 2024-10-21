@@ -32,3 +32,12 @@ To run the game locally:
 1. Clone this repository:
    ```bash
    git clone https://github.com/lAleRojasl/BeatTheBox-CardGame.git
+
+## Contributing
+
+Contributions are welcome! Please follow these steps:
+1. Fork the repository.
+2. Create a new branch for your feature or bugfix.
+3. Make your changes and commit them.
+4. Push to your fork and submit a pull request.
+5. Your pull request will be reviewed before merging.
