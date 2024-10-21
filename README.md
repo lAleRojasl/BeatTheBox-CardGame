@@ -1,6 +1,9 @@
 # Beat the Box Card Game
 Inspired by Santagato Studios video: https://www.youtube.com/watch?v=2UEWHqDPa_M&t=213s&ab_channel=SantagatoStudios
 
+# Play the game
+https://lalerojasl.github.io/BeatTheBox-CardGame/
+
 ## Overview
 
 Beat the Box is an engaging card guessing game built with HTML, CSS, and JavaScript. The game features a 3x3 grid of cards where players need to guess whether the next drawn card will be higher or lower than a selected card. The game also includes functionality for restarting, displaying remaining cards in the deck, and visual representations of card images.
